@@ -1,13 +1,111 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #14192d !important;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+section {
+  margin-bottom: 5%;
+}
+section .card {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 5%;
+}
+.Hero-Section {
+  background-image: url("../src//Image/Hero-Section.jpg");
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Hero-Section .card {
+  border: none;
+  background: transparent;
+  border-radius: 5%;
+  color: white;
+}
+
+.Hero-Section-Inner {
+  padding-top: 20%;
+}
+
+.Hero-Section-Inner h1,
+h4 {
+  font-size: 4rem;
+}
+
+.Why-Info-Component {
+  height: fit-content;
+}
+
+.Why-Info-Component .card {
+  background-color: #1a2237;
+  color: white;
+}
+
+.Why-Info-Component-Inner {
+  margin-top: -10%;
+}
+
+.About-Company-Component {
+  color: white;
+}
+
+.About-Company-Component .card {
+  background-color: #1a2237;
+  color: white;
+}
+.ServicesComponent {
+  color: white;
+}
+.ServicesComponent .card {
+  background-color: #1a2237;
+  color: white;
+}
+
+.Trust-Company-Component {
+  color: white;
+}
+.Trust-Company-Component .card {
+  background-color: #1a2237;
+  color: white;
+}
+
+.Project-Component {
+  color: white;
+}
+.Project-Component .card {
+  background-color: #1a2237;
+  color: white;
+}
+
+.WhyUs-Company-Component {
+  color: white;
+  background-color: #1a2237;
+}
+
+.WhyUs-Company-Component-Inner {
+  padding-top: 13%;
+}
+
+
+.Top-Reviews-Component {
+  color: white;
+}
+ span{
+  color: aqua;
+  font-size: 44px;
+}
+.Top-Reviews-Component .card {
+  background-color: #1a2237;
+  color: white;
 }
