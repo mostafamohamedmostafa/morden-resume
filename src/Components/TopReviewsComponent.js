@@ -45,6 +45,26 @@ export const TopReviewsComponent = () => {
             </div>
           </div>
         </div>
+
+        <div className="col-lg-12 Top-Reviews-Component-Inner">
+          <div className="card mb-3">
+            <h1>
+              <span>❝</span>
+            </h1>
+            <h3>
+              <span>☆☆☆☆☆</span>
+            </h3>
+            <div className="card-body">
+              <h2 className="card-title">
+                Lorem ipsum dolor sit amet consectetuer adipiscing elitenean
+                commo doligula eget dolorenean massa.In enim justo, rhoncus ut,
+                imperdiet avene natis vitae justo nullam dictum felis eu pede
+                mollis pretium Inte ger tincid unt cras dapibus.
+              </h2>
+              <h5 className="card-title">Client Name</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

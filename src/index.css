@@ -5,9 +5,8 @@ body {
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1{
+  color: white !important;
 }
 
 section {
@@ -105,7 +104,14 @@ h4 {
   color: aqua;
   font-size: 44px;
 }
-.Top-Reviews-Component .card {
+.Top-Reviews-Component .card , .Pricing-Component-Inner .card {
   background-color: #1a2237;
   color: white;
+}
+
+
+.Pricing-Component-Inner ul li{
+background-color: transparent;
+color: white;
+font-size: xx-large;
 }

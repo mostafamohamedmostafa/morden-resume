@@ -8,6 +8,7 @@ import { TrustCompanyComponent } from "./Components/TrustCompanyComponent";
 import { ProjectComponent } from "./Components/ProjectsComponent";
 import { WhyUsCompanyComponent } from "./Components/WhyUsCompanyComponent";
 import { TopReviewsComponent } from "./Components/TopReviewsComponent";
+import { Pricing } from "./Components/Pricing";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <TrustCompanyComponent></TrustCompanyComponent>
       <ProjectComponent></ProjectComponent>
       <WhyUsCompanyComponent></WhyUsCompanyComponent>
-
+      <Pricing></Pricing>
       <TopReviewsComponent></TopReviewsComponent>
     </div>
   );
